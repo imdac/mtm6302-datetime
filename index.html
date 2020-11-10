@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date and Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    <section>
+      <div id="date" class="date"></div>
+
+      <form id="form">
+        <input type="datetime-local" name="date" id="datetime">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section>
+      <div id="timer" class="timer">00:00:00</div>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+    </section>
+  </main>
+  
+  <script src="luxon.min.js"></script>
+  <script src="easytimer.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
